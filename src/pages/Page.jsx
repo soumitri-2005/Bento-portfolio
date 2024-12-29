@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import sunImg from './src/images/sun-img.png';
-import graduationCapImg from './src/images/graduation-cap.pngg';
-import profileImg from './src/images/profile-img.png';
-import amazonImg from './src/images/amazon-clone.png';
-import exchangoImg from './src/images/exchango.png';
-import feastifyImg from './src/images/feastify.png';
+import sunImg from '../images/sun-img.png';
+import graduationCapImg from '../images/graduation-cap.pngg';
+import profileImg from '../images/profile-img.png';
+import amazonImg from '../images/amazon-clone.png';
+import exchangoImg from '../images/exchango.png';
+import feastifyImg from '../images/feastify.png';
 
 const Page = () => {
   const profileRef = useRef();
