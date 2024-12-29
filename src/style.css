@@ -271,3 +271,13 @@ body {
     margin: 20px;
   }
 }
+
+@media (max-width: 290px) {
+  .bento-navbar h6 {
+    font-size: 12px;
+  }
+
+  .bento-heading h1 {
+    font-size: 2rem;
+  }
+}
