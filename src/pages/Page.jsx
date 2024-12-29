@@ -3,6 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import sunImg from './images/sun-img.png';
+import graduationCapImg from './images/graduation-cap.png';
+import profileImg from './images/profile-img.png';
+import amazonImg from './images/amazon-clone-img.png';
+import exchangoImg from './images/exchango-img.png';
+import feastifyImg from './images/feastify-img.png';
 
 const Page = () => {
   const profileRef = useRef();
@@ -121,11 +127,8 @@ const Page = () => {
                   <div className="col-md-8">
                     <div className="bento-heading bento-div p-3 d-flex flex-column justify-content-between">
                       <div>
-                        <img
-                          src="src/images/sun-img.png"
-                          className="bento-img img-fluid float-end m-1"
-                          alt="sun"
-                        />
+                      <img src={sunImg} alt="Sun" className="bento-img img-fluid float-end m-1"
+                      />
                       </div>
                       <div>
                         <h1 className="bento-side2 lh-1">
@@ -143,7 +146,7 @@ const Page = () => {
                     <div className="bento-pic bento">
                       <img
                         ref={profileRef}
-                        src="src/images/profile-img.png"
+                        src={profileImg}
                         alt="profile"
                       />
                     </div>
@@ -157,7 +160,7 @@ const Page = () => {
                     <div className="bento-about bento-div p-3 d-flex flex-column justify-content-between">
                       <div>
                         <img
-                          src="src/images/graduation-cap.png"
+                          src={graduationCapImg}
                           className="bento-text img-fluid float-start"
                           alt="graduation"
                         />
@@ -232,11 +235,8 @@ const Page = () => {
                       >
                         <hr className="my-0 mx-3" />
                         <div className="accordion-body">
-                          <img
-                            src="src/images/amazon-clone.png"
-                            className="bento-side"
-                            alt="amazon"
-                          />
+                        <img src={amazonImg} className="bento-side"
+                            alt="amazon"/>
                         </div>
                       </div>
                     </div>
@@ -262,7 +262,7 @@ const Page = () => {
                         <hr className="my-0 mx-3" />
 
                         <div className="accordion-body">
-                          <img src="src/images/feastify.png" alt="feastify" />
+                          <img src={feastifyImg} alt="feastify" />
                         </div>
                       </div>
                     </div>
@@ -288,7 +288,8 @@ const Page = () => {
                         <hr className="my-0 mx-3" />
 
                         <div className="accordion-body">
-                          <img src="src/images/exchango.png" alt="exchango" />
+                          
+                          <img src={exchangoImg} alt="exchango" />
                         </div>
                       </div>
                     </div>
