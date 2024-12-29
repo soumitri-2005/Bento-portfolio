@@ -239,8 +239,8 @@ body {
 
 @media (max-width: 767px) {
   body {
-    height: 200vh;
-    padding: 15px;
+    height: 210vh;
+    padding : 20px;
   }
   
   .bento-navbar h6 {
