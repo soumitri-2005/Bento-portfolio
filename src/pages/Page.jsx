@@ -4,7 +4,7 @@ import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import sunImg from '../images/sun-img.png';
-import graduationCapImg from '../images/graduation-cap.pngg';
+import graduationCapImg from '../images/graduation-cap.png';
 import profileImg from '../images/profile-img.png';
 import amazonImg from '../images/amazon-clone.png';
 import exchangoImg from '../images/exchango.png';
