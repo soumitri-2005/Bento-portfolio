@@ -272,7 +272,7 @@ body {
   }
 }
 
-@media (max-width: 285px) {
+@media (max-width: 280px) {
   .bento-navbar h6 {
     font-size: 13px;
   }
