@@ -20,7 +20,6 @@ font-family: "Bona Nova", serif; */
 }
 
 body {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,8 +238,7 @@ body {
 
 @media (max-width: 767px) {
   body {
-    height: 210vh;
-    padding : 20px;
+    padding: 20px 0;
   }
   
   .bento-navbar h6 {
