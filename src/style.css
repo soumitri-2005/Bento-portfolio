@@ -217,10 +217,6 @@ body {
 }
 
 @media (max-width: 991px) {
-  .container {
-    padding: 0 8px;
-  }
-
   .bento-heading h1 {
     font-size: 2rem;
   }
@@ -278,7 +274,11 @@ body {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 400px) {
+  .container {
+    padding: 0 12px;
+  }
+
   .bento-navbar h6 {
     font-size: 13px;
   }
