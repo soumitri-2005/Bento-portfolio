@@ -86,7 +86,7 @@ const Page = () => {
 
   return (
     <>
-      <div className="container px-5">
+      <div className="container">
         <div className="row g-3">
           <div className="col-md-12">
             <div className="bento-navbar bento-div d-flex justify-content-between">
