@@ -27,7 +27,7 @@ body {
 }
 
 .bento-div {
-  border-radius: 10px;
+  border-radius: 17px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -224,7 +224,7 @@ body {
   .bento-about p {
     font-size: 8px;
   }
-  
+
   .bento-project hr {
     width: 80%;
   }
@@ -240,7 +240,7 @@ body {
   body {
     padding: 20px 0;
   }
-  
+
   .bento-navbar h6 {
     font-size: 15px;
   }
@@ -270,12 +270,50 @@ body {
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 390px) {
   .bento-navbar h6 {
     font-size: 13px;
   }
 
   .bento-heading h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 325px) {
+  .bento-navbar,
+  .bento-heading,
+  .bento-pic,
+  .bento-about,
+  .bento-contact,
+  .bento-project,
+  .bento-footer {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .bento-navbar {
+    height: 60px;
+    padding-top: 24px;
+  }
+
+  .bento-heading {
+    height: 270px;
+  }
+
+  .bento-heading h1 {
+    font-size: 2rem;
+  }
+
+  .bento-pic {
+    height: 290px;
+  }
+
+  .bento-footer {
+    height: 70px;
+  }
+
+  .bento-footer a {
+    font-size: 10px;
   }
 }
