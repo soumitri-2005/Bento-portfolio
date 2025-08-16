@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import sunImg from '../images/sun-img.png';
-import graduationCapImg from '../images/graduation-cap.png';
-import profileImg from '../images/profile-img.png';
-import amazonImg from '../images/amazon-clone.png';
-import exchangoImg from '../images/exchango.png';
-import feastifyImg from '../images/feastify.png';
+import sunImg from "../images/sun-img.png";
+import graduationCapImg from "../images/graduation-cap.png";
+import profileImg from "../images/profile-img.png";
+import codehubImg from "../images/codehub.png";
+import exchangoImg from "../images/exchango.png";
+import quickstayImg from "../images/quickstay.png";
 
 const Page = () => {
   const profileRef = useRef();
@@ -56,7 +56,7 @@ const Page = () => {
   useGSAP(() => {
     gsap.from(".bento-side2", {
       opacity: 0,
-      x:-30,
+      x: -30,
       duration: 0.7,
       delay: 2.5,
     });
@@ -74,7 +74,7 @@ const Page = () => {
 
   const handleContactClick = (event) => {
     event?.preventDefault();
-  
+
     try {
       const email = "soumitrimishra1@gmail.com";
       const mailto = `mailto:${email}`;
@@ -127,8 +127,11 @@ const Page = () => {
                   <div className="col-md-8">
                     <div className="bento-heading bento-div p-3 d-flex flex-column justify-content-between">
                       <div>
-                      <img src={sunImg} alt="Sun" className="bento-img img-fluid float-end m-1"
-                      />
+                        <img
+                          src={sunImg}
+                          alt="Sun"
+                          className="bento-img img-fluid float-end m-1"
+                        />
                       </div>
                       <div>
                         <h1 className="bento-side2 lh-1">
@@ -144,11 +147,7 @@ const Page = () => {
                   </div>
                   <div className="col-md-4">
                     <div className="bento-pic bento">
-                      <img
-                        ref={profileRef}
-                        src={profileImg}
-                        alt="profile"
-                      />
+                      <img ref={profileRef} src={profileImg} alt="profile" />
                     </div>
                   </div>
                 </div>
@@ -225,7 +224,7 @@ const Page = () => {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          Amazon clone
+                          QuickStay
                         </button>
                       </h2>
                       <div
@@ -235,8 +234,17 @@ const Page = () => {
                       >
                         <hr className="my-0 mx-3" />
                         <div className="accordion-body">
-                        <img src={amazonImg} className="bento-side"
-                            alt="amazon"/>
+                          <a
+                            href="https://quick-stay-coral.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              src={quickstayImg}
+                              alt="Code Hub"
+                              style={{ cursor: "pointer" }}
+                            />
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -251,7 +259,7 @@ const Page = () => {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Feastify
+                          Code Hub
                         </button>
                       </h2>
                       <div
@@ -262,10 +270,21 @@ const Page = () => {
                         <hr className="my-0 mx-3" />
 
                         <div className="accordion-body">
-                          <img src={feastifyImg} alt="feastify" />
+                          <a
+                            href="https://github.com/soumitri-2005/code-hub"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              src={codehubImg}
+                              alt="Code Hub"
+                              style={{ cursor: "pointer" }}
+                            />
+                          </a>
                         </div>
                       </div>
                     </div>
+
                     <hr className="my-1 mx-3" />
                     <div className="accordion-item">
                       <h2 className="accordion-header">
@@ -288,8 +307,17 @@ const Page = () => {
                         <hr className="my-0 mx-3" />
 
                         <div className="accordion-body">
-                          
-                          <img src={exchangoImg} alt="exchango" />
+                          <a
+                            href="https://soumitri-2005.github.io/Exchango-currency-converter/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <img
+                              src={exchangoImg}
+                              alt="Code Hub"
+                              style={{ cursor: "pointer" }}
+                            />
+                          </a>
                         </div>
                       </div>
                     </div>
