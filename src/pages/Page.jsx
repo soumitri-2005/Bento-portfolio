@@ -166,13 +166,14 @@ const Page = () => {
                       </div>
                       <div>
                         <p className="bento-text mb-0">
-                          I’m a student majoring in CSE at Ajay Binay Institute
-                          of Technology. I’ve developed skills in programming
-                          languages like Java, Python(using Django) and web
-                          technologies like HTML, CSS, JavaScript also
-                          frameworks like React through my coursework and
-                          projects. I’m eager to apply what I’ve learned to
-                          real-world challenges and explore new opportunities.
+                          Computer Science student at Ajay Binay Institute of
+                          Technology with an 8.75 CGPA, completed 10th with 83%
+                          and 12th with 72%. Proficient in C, Java, and
+                          JavaScript, with hands-on experience in HTML, CSS,
+                          ReactJS, Python, and Django. Strong problem-solving
+                          skills, disciplined work ethic, and a focus on
+                          building maintainable full-stack applications; seeking
+                          internships and collaborative projects.
                         </p>
                       </div>
                     </div>
@@ -333,10 +334,10 @@ const Page = () => {
                     linkedin
                   </a>
                   <a
-                    href="https://www.instagram.com/mesomu__/?__pwa=1"
+                    href="https://leetcode.com/u/soumitri-2005/"
                     className="bento-text link-offset-2 link-underline link-underline-opacity-0 text-uppercase"
                   >
-                    instagram
+                    leetcode
                   </a>
                   <a
                     href="https://github.com/soumitri-2005"
