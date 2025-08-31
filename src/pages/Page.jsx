@@ -114,7 +114,7 @@ const Page = () => {
                   className="bento-text text-uppercase mx-3 fw-lighter bento-hide"
                   onClick={handleContactClick}
                 >
-                  contact
+                  Contact
                 </p>
               </div>
             </div>
@@ -272,7 +272,7 @@ const Page = () => {
 
                         <div className="accordion-body">
                           <a
-                            href="https://github.com/soumitri-2005/code-hub"
+                            href="https://code-hub-gs77.onrender.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
