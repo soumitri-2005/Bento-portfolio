@@ -97,7 +97,7 @@ const Page = () => {
                 <p className="bento-text text-uppercase mx-2 bento-hide">
                   <a
                     href="https://github.com/soumitri-2005?tab=repositories"
-                    className="link-offset-2 link-underline link-underline-opacity-0 text-uppercase m-3 fw-lighter"
+                    className="link-offset-2 link-underline link-underline-opacity-0 text-uppercase m-3 fw-light"
                   >
                     Projects
                   </a>
@@ -105,13 +105,13 @@ const Page = () => {
                 <p className="bento-text text-uppercase mx-3">
                   <a
                     href="https://www.linkedin.com/in/soumitri-mishra/details/skills"
-                    className="link-offset-2 link-underline link-underline-opacity-0 text-uppercase m-3 fw-lighter"
+                    className="link-offset-2 link-underline link-underline-opacity-0 text-uppercase m-3 fw-light"
                   >
                     Skills
                   </a>
                 </p>
                 <p
-                  className="bento-text text-uppercase mx-3 fw-lighter bento-hide"
+                  className="bento-text text-uppercase mx-3 fw-light bento-hide"
                   onClick={handleContactClick}
                 >
                   Contact
@@ -166,14 +166,14 @@ const Page = () => {
                       </div>
                       <div>
                         <p className="bento-text mb-0">
-                          Computer Science student at Ajay Binay Institute of
-                          Technology with an 8.75 CGPA, completed 10th with 83%
-                          and 12th with 72%. Proficient in C, Java, and
-                          JavaScript, with hands-on experience in HTML, CSS,
-                          ReactJS, Python, and Django. Strong problem-solving
-                          skills, disciplined work ethic, and a focus on
-                          building maintainable full-stack applications; seeking
-                          internships and collaborative projects.
+                          Aspiring Software Developer and Computer Science
+                          student at Ajay Binay Institute of Technology (8.75
+                          CGPA), proficient in Java, JavaScript, HTML, CSS,
+                          ReactJS, Python, and Django. Skilled in building
+                          interactive, maintainable full-stack applications with
+                          clean code practices, strong problem-solving
+                          abilities, and a disciplined work ethic. Eager to
+                          contribute to innovative, collaborative projects.
                         </p>
                       </div>
                     </div>
