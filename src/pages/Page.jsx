@@ -7,7 +7,7 @@ import sunImg from "../images/sun-img.png";
 import graduationCapImg from "../images/graduation-cap.png";
 import profileImg from "../images/profile-img.png";
 import codehubImg from "../images/codehub.png";
-import exchangoImg from "../images/exchango.png";
+import resumebuddy from "../images/resumebuddy.png";
 import quickstayImg from "../images/quickstay.png";
 
 const Page = () => {
@@ -242,7 +242,7 @@ const Page = () => {
                           >
                             <img
                               src={quickstayImg}
-                              alt="Code Hub"
+                              alt="Hotel Booking Application"
                               style={{ cursor: "pointer" }}
                             />
                           </a>
@@ -278,7 +278,7 @@ const Page = () => {
                           >
                             <img
                               src={codehubImg}
-                              alt="Code Hub"
+                              alt="Collaborative Coding Platform"
                               style={{ cursor: "pointer" }}
                             />
                           </a>
@@ -297,7 +297,7 @@ const Page = () => {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Exchango
+                          ResumeBuddy
                         </button>
                       </h2>
                       <div
@@ -309,13 +309,13 @@ const Page = () => {
 
                         <div className="accordion-body">
                           <a
-                            href="https://soumitri-2005.github.io/Exchango-currency-converter/"
+                            href="https://resume-buddy-ai.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <img
-                              src={exchangoImg}
-                              alt="Code Hub"
+                              src={resumebuddy}
+                              alt="AI Powered Resume Builder"
                               style={{ cursor: "pointer" }}
                             />
                           </a>
